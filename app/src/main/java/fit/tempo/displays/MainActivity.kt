@@ -96,7 +96,7 @@ fun DisplayItem(
     onStartActivityClick: (Display) -> Unit = {}
 ) {
 
-    var flags = ArrayList<String>()
+    val flags = ArrayList<String>()
     if (display.flags and Display.FLAG_PRESENTATION != 0) {
         flags.add("presentation")
     }
